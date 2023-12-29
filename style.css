@@ -1,0 +1,60 @@
+
+
+#sec1{
+    width: 100% !important;
+    height: 40vh !important;
+    background: url("img/14.jpg") center/cover;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+.tflex li {
+    width: 100%;
+    display: inline-flex;
+    gap: 30px;
+}
+#sec2 ul li i{
+    color: #04f504;
+}
+
+#sec2 .col-12 button{
+    font-weight: 700;
+    color: #fff;
+    background: #04f504;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+
+footer .tflex li i{
+    color: #04f504;
+}
+
+footer .inps span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, .1);
+    border-radius: 4px;
+}
+footer .inps span i{
+    font-size: 14px;
+
+}
+footer .inps span:hover{
+    background: #fff;
+    color: #04f504;
+    transition: .4s;
+
+}
+@media only screen and (max-width: 768px){
+    #sec1{
+        height: 100vh !important;
+    }
+   
+}
